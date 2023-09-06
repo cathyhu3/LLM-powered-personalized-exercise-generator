@@ -1,0 +1,18 @@
+cookie:
+  expiry_days: 30
+  key: cookie_key
+  name: cookie_name
+credentials:
+  usernames:
+    ? ''
+    : email: ''
+      name: ''
+      password: $2b$12$vLYnprbGxN.GseciXBxnbuhC50yMAaQjAsBwtyOe4ZkSCZCuPccxG
+    bobwang:
+      email: bobwang@gmail.com
+      name: Bob Wang
+      password: $2b$12$kn.oWsnG7r2O5AyAmW.kru0qdD1pAqzmMv1OyNjwnDjgu8OR6I8Py
+    cathyhu3:
+      email: cathyhu3@gmail.com
+      name: Cathy Hu
+      password: $2b$12$yB1FjkgPXaN1Mtog/NlDeOQupo/dOJbQy746TMVU/efEe3wWGWJPW
