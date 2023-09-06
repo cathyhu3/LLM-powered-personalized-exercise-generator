@@ -1,0 +1,10 @@
+streamlit
+langchain
+openai
+pinecone
+pyyaml
+Deta
+numpy
+pandas
+scikit-learn
+streamlit_authenticator
