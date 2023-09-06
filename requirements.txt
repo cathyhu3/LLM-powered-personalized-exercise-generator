@@ -9,3 +9,4 @@ pandas
 scikit-learn
 streamlit_authenticator
 python-dotenv
+tiktoken
