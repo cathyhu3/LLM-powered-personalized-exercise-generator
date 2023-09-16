@@ -14,6 +14,17 @@ x = df.values.flatten().tolist()
 if 'PSscore' not in st.session_state:  
     st.session_state['PSscore'] = 0
 
+# information about Postural Stability and COP avg vel
+with st.expander('Information'):
+    st.write("Postural Stability: the ability of an individual to\
+              maintain their balance and equilibrium while in a \
+             static (non-moving) position or during dynamic activities\
+              like walking, running, or other forms of movement.")
+    st.write("Studies have found that COP average velocity \
+             (Center of Pressure average velocity) is a good\
+              measure of one's Postual Stability")
+    st.write("Link to sources: https://www.academia.edu/23240856/Cluster_Analysis_of_Center_of_Pressure_Measures")
+
 # form for the participant's COP avg velocity
 with st.form('form1'):
     st.markdown('<p style="color:LightGreen; font-size: 20px;">Postural Stability score</p>',unsafe_allow_html=True)
