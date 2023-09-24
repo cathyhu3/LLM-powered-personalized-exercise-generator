@@ -153,7 +153,7 @@ with col1:
             injuries = ''
             ratings = ''
             ex_list = ''
-            db.insert_user(username, name, hashed_password, email, gender, ex_per_day, str(biom_fact_dict), injuries, ratings, ex_list)
+            db.insert_user(username, name, hashed_password, email, gender, ex_per_day, str(biom_fact_dict), injuries, ratings, ex_list, st.session_state['PSscore'])
             st.session_state['dump'] = True
 
     ## Login info is dumped into the yaml file (accessed in user login later)
