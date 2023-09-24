@@ -27,9 +27,9 @@ deta = Deta(DETA_KEY)
 db = deta.Base("user_information")
 
 ## MIGHT HAVE TO DEFINE PUT and GET FUNCTIONS HERE az
-def insert_user(username: dict, name, password, email, gender, num_ex, biom_dict, injuries, ratings, exlist):
+def insert_user(username: dict, name, password, email, gender, num_ex, biom_dict, injuries, ratings, exlist, ps_score):
     """Returns the user on a successful user creation, otherwise raises and error"""
-    return db.put({"key": username, "name": name, "password": password, "email": email, "gender": gender, "num_ex": num_ex, "biom_dict": biom_dict, "injuries":injuries, "ratings": ratings, "ex_list": exlist})
+    return db.put({"key": username, "name": name, "password": password, "email": email, "gender": gender, "num_ex": num_ex, "biom_dict": biom_dict, "injuries":injuries, "ratings": ratings, "ex_list": exlist, "ps_score": ps_score})
 
 def fetch_all_users():
     """Returns a dict of all users"""
